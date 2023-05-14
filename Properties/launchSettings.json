@@ -1,0 +1,53 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5090"
+    },
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MONGODB_URI": "mongodb://nicolasyassuda:nicolasyassuda09022003@15.229.166.67/admin",
+        "MONGODB_DBNAME": "projeto3"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7279;http://localhost:5090"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/weatherforecast",
+      "environmentVariables": {
+        "TOKEN": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3OGFiMGY2MjgzMTZhNTU3MmY2NmIyNWMzZjY4NGQwNCIsInN1YiI6IjY0NWIxMTk0MWI3MGFlMDE0NWVlYjFmNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qAEZ8u8C08cAedTLjTwW0Akh7EpkRcxlHZ89tjolgq0"
+      },
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24756",
+      "sslPort": 44353
+    }
+  }
+}
