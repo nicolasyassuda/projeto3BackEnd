@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/m1JCHAlqj6IkgLtsaSqyz5shlFANjiswmFqvzBLyEDVaRMR1YgExDb4EMKR7Fz4WQgrIrIMLPphoqRWlHQcbQ==",
+  "dgSpecHash": "86gT6buEicZv4vPO0ej1/1dssMKOMOuEveIdjIk3hilqb/5IqeQ6h0cX0edsgSZXUuXstp1WT0kHVJVFxgFKVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documents\\API-KNBS-MOVIES\\APIMOVIES.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documents\\projeto3BackEnd\\APIMOVIES.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

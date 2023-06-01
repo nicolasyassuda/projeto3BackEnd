@@ -101,7 +101,8 @@ namespace APIMOVIES.Controllers
                                 keyYoutube = result2[0].ToObject<Youtube>();
                                 filme.keyYoutube = keyYoutube;
                             }
-
+                            filme.vote_count = 0;
+                            filme.vote_average= 0;
                             await banco.PostRequisicaoAsync(filme);
 
                         }

@@ -18,12 +18,17 @@ namespace APIMOVIES.Models
         public string release_data { get; set; }
         public string title { get; set; }
         public bool video { get; set; }
-        public long vote_average { get; set; }
+        public double vote_average { get; set; }
         public long vote_count { get; set;}
         public Youtube keyYoutube { get; set; }
     }
     public class Youtube
     {
         public string key { get; set; }
+    }
+    public class FavoritaInput
+    {
+        public long UserId { get; set; }
+        public long codFilme { get; set; }
     }
 }

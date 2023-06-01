@@ -3,9 +3,11 @@
     "http": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MONGODB_URI": "mongodb://nicolasyassuda:nicolasyassuda09022003@15.229.166.67/admin",
+        "MONGODB_DBNAME": "projeto3"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5090"
